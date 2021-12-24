@@ -1,0 +1,87 @@
+body{
+    /* background-image : linear-gradient(white, yellow); */
+    background-image : linear-gradient(white, rgb(110, 173, 245));
+    /* background-color: rgb(255, 255, 255); */
+    height: 100vh;
+    /* font-family: 'Baloo Bhai 2', cursive; */
+    font-family: 'Baloo 2';
+}
+#main-logo{
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+}
+
+.containor{
+    width: 60%;
+    height: 500px;
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid black;
+    border-radius: 5px;
+    overflow-y: auto;
+    background-color: rgb(235, 236, 240);
+}
+
+.message{
+    border: 1px solid black;
+    border-radius: 5px;
+    width: auto;
+    margin: 5px;
+    padding: 3px 5px;
+    background-color: rgb(238, 235, 235);
+    max-width: 70%;
+    /* height: auto; */
+    /* overflow-x:initial; */
+    word-wrap: break-word;
+}
+
+.left{
+    color: rgb(0, 0, 0);
+    background-color: rgb(168, 170, 168);
+    /* background-color: rgb(216, 212, 212); */
+    float: left;
+    clear: both;
+    margin-right: 20px;
+}
+.right{
+    color: white;
+    float: right;
+    clear: both;
+    margin-left: 20px;
+    /* background-color:rgb(214, 184, 129); */
+    background-color: rgb(73, 41, 214);
+}
+.notice{
+    /* color: white; */
+    float: right;
+    clear: both;
+    margin-left: 20px;
+    background-color:white;
+    /* background-color: rgb(180, 156, 110); */
+}
+
+#typingArea{
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+#msgInput{
+    width: 50%;
+    height: 25px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px 5px;
+}
+
+#btnSend{
+    width: 5%;
+    min-width: 50px;
+    height: 25px;
+    border-radius: 5px;
+}
